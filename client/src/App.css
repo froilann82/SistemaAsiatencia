@@ -1,0 +1,134 @@
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+body {
+  background-color: #f3f4f6;
+}
+
+/* Estilos para el login */
+.login-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.login-form {
+  background-color: #ffffff;
+  padding: 2rem;
+}
+
+/* Estilos de marca */
+.brand-logo {
+  color: #1e293b;
+}
+
+/* Estilos de texto */
+.text-center small {
+  color: #94a3b8;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: #f58220;
+  border: none;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #d97706;
+}
+
+/* Alertas */
+.alert-danger {
+  color: #b91c1c;
+  background-color: #fee2e2;
+  border-color: #fecaca;
+}
+
+/* Estilos de formularios */
+.form-control {
+  border-color: #cbd5e1;
+  border-radius: 6px;
+}
+
+/* Iconos */
+.bi-power {
+  color: #f58220;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.register-container {
+  max-width: 800px; 
+  margin: 20px auto; 
+  padding: 2rem; 
+  background-color: #ffffff; 
+  border-radius: 12px; 
+}
+
+.register-title {
+  color: #1e293b; 
+  text-align: center; 
+  margin-bottom: 1.5rem; 
+}
+
+.register-image {
+  width: 150px; 
+  height: 150px; 
+  object-fit: cover; 
+}
+.form-control:hover {
+  border-color: orange; 
+  box-shadow: 0 0 5px orange; 
+}
+@keyframes slideIn {
+  0% {
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;  /* Asegura que el contenido esté alineado en la parte superior */
+  margin-top: 20px;  /* Espaciado superior para darle un margen al inicio */
+}
+
+.image-container img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.image-container .mt-2 {
+  margin-top: 10px;
+}
+
+.image-container button {
+  margin-top: 10px;
+}
+
+a:hover, .btn:hover {
+  color: #f39c12 !important; 
+  text-decoration: underline; 
+  transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+img:hover {
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
+}
+
+
+.right-section:hover {
+  color: #f39c12;
+}
+.custom-bg {
+  background-color: #FF8000 !important;
+}
